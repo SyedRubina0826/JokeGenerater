@@ -1,0 +1,47 @@
+*{
+ padding:0;
+ margin:0;
+ box-sizing: border-box;
+}
+body{
+    background-color: #242B2E;
+}
+.jokecontainer{
+    /* width: 120px */
+    padding: 50px 40px;
+    background-color: beige;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top:50%;
+    left: 50%;
+    box-shadow: 20px 20px 40px  black;
+    border-radius: 15px;
+}
+
+span{
+    display: block;
+    text-align: center;
+    font-size: 120px;
+}
+p{
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    line-height: 40px;
+    opacity: 0;
+}
+.fade{
+    opacity:1;
+    transition: opacity 1.5s;
+}
+button{
+    display: block;
+    font-size: 25px;
+    padding: 10px 20px;
+    margin: 0 auto;
+    /* border: none; */
+    border-radius: 13px;
+    box-shadow: 10px 10px 0.2px #706c6c38;
+    cursor: pointer;
+    background-color: beige;
+}
